@@ -1,0 +1,334 @@
+.body{
+    margin: 0;
+    
+}
+.inventrom-header{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    width: 100%;
+    z-index: 100;
+}
+.logo_div{
+    height: 100%;
+    text-align: center;
+    margin-left: -32px;
+    float: left;
+}
+
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    justify-content: right;
+}
+
+.inventrom-nav{
+    float: right;
+    height: 100%;
+}
+
+.text1{
+    color: white;
+    font-family: Helvetica Neue;
+    position: relative;
+    top: 10%;
+    font-size: 25px;
+     
+}
+
+
+a{
+    margin: 1px;
+    color: black;
+    padding-right: 20px;
+}
+
+.lines{
+    height: 2px;
+    width: 150px;
+    background-color: grey;
+    border: none;
+}
+
+.line1{
+    height: 2px;
+    width: 150;
+    background-color: grey;
+    border: none;
+}
+.line2{
+    height: 2px;
+    width: 150px;
+    background-color: grey;
+    border: none;
+}
+.line3{
+    height: 2px;
+    width: 150px;
+    background-color: grey;
+    border: none;
+}
+
+.boltiot{
+    position: relative;
+    top: 100px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.logo_div{
+    position: absolute;
+    left: 2rem;
+    
+}
+a:hover{
+    color: blue;
+}
+.div_content{
+    width: 100%;
+}
+.banner_area{
+    position: relative;
+    background-image: url(images2.png);
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.text_content p{
+    padding: 8px;
+    font-style: italic;
+    font-size: 50px;
+}
+.text_content{
+    text-align: center;
+    color: white;
+    height: 80px;
+    padding-top: 135px;
+    font-size: 17px;
+}
+.header_text{
+    text-align: center;
+    color: white;
+    height: 20px;
+    font-family: verdana;
+    font-size: 17px;
+}
+#about{
+    text-align: center;
+}
+.about_us{
+    color: green;
+    text-align: center;
+}
+.about_des{
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+}
+.card img{
+    width: 100%;
+}
+.card{
+    width: 40%;
+    height: 220px;
+}
+.about_des{
+    
+    text-align: center;
+    line-height: 30px;
+    font-family: 'nexaFont';
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: rgb(99, 99, 99);
+    
+    
+}
+
+.card{
+    margin-left: 200px;
+    width: 22%;
+    padding: 10px;
+    float: left;
+    height: 300px;
+    text-align: left;
+}
+
+.about_area{
+    width: 100%;
+}
+.award_area{
+    background-color: #e8e7e3;
+    height: 450px;
+    margin: 500px;
+    text-align: center;
+    margin-left: 0%;
+
+
+    margin-bottom: 50px;
+}
+.award_us{
+    text-align: center;
+    justify-items: center;
+    color: #139139;
+}
+.award_area{
+    width: 100%;
+}
+.card_list img{
+    width: 100%;
+}
+.card_list{
+    width: 22%;
+    padding: 1%;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.contact_area{
+    height: 700px;
+    background-color: #e8e7e3;
+    width: 100%;
+}
+
+.contact{
+    color: #139139;
+    text-align: center;
+    padding-top: 22px;
+    font-size: 22px;
+    font-style: inherit;
+}
+.right{
+    height: 600px;
+    width: 50%;
+    float: left;
+}
+.left_side{
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 30px;
+
+ 
+}
+
+p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 1px;
+}
+.footer{
+    background-color: #139139;
+    height: 130px;
+    color: white;
+    font-size: 12px;
+    font-style: inherit;
+    width: 100%;
+}
+
+.icon{
+    padding-right: 10%;
+    /* font-size: 30px; */
+}
+
+.arise{
+    padding: 0px 0px 0px 300px;
+}
+.right form .class_details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 60px 30px 60px;
+}
+form .right_side .input-box{
+    width: calc(100% / 2 -20px);
+}
+.class_details .input-box input{
+    height: 35px;
+    width: 90%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.class_details .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+form .right_side .input_box{
+    width: 20%;
+    height: 35px;
+}
+.input-class .input_box input{
+    height: 35px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border-bottom-width: 2px;
+    transition: all 0.3 ease;
+}
+form .button{
+    height: 100%;
+    /* float: left; */
+    margin: 10px 100px 10px 10px;
+
+}
+form .button input{
+    height: 60px;
+    width: 200%;
+    outline: none;
+    color: black;
+    border: none;
+    font-size: 18px;
+    font-weight: 500px;
+    border-radius: 5px; 
+    background: linear-gradient(135deg,#dcc172,#c770b4b7);
+}
+.fab{
+    font-size: 30px;
+    gap: 10px;
+}
+@media (max-width:600px){
+    .right-side{
+        max-width:50%;
+    }
+}
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 3px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.98em;
+    padding-block-end: 0.700em;
+    min-inline-size: min-content;
+}
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+}
